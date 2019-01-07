@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-sites = ["facebook.com","amazon.co.uk","youtube.com","netflix.com","google.com"]
+sites = ["facebook.com","amazon.co.uk","youtube.com","netflix.com","google.com","w3schools.com", "github.com","rolls-royce.com"]
 
 
 @app.route("/")
