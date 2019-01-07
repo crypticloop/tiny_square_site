@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Rinito Smalls! Versace Shades!"
+    return "This is the beginings of the tiny square site"
