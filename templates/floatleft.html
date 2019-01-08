@@ -1,16 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>This is the beginings of the Tiny Square Site</h1>
-<table>
-  <tr>
-    <th>Site</th>
-    <th>Image</th>
-  </tr>
   {% for site in sites %}
-  <tr>
-      <td>{{ site }}</td>
-      <td><img src="http://www.{{ site }}/favicon.ico" alt="Favicon of {{ site }}" height="16"></td>
-  </tr>
+      <img src="http://www.{{ site }}/favicon.ico" alt="Favicon of {{ site }}" height="64">
   {% endfor %}
-</table>
+
 {% endblock content %}
